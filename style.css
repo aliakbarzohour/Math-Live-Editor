@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: url(./mathlive-1.png) center no-repeat;
+    background-size: cover;
+}
+
+.modal {
+    z-index: 10;
+}
+
+.modal-dialog {
+    margin: 4rem auto;
+    width: 90%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+math-field {
+    font-size: 1.6rem;
+}
+
+.modal-backdrop {
+    z-index: 5;
+}
