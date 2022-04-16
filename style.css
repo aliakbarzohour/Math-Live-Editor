@@ -1,8 +1,16 @@
+/* Global Styles */
+
+
+/* Reset styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* Body Styles */
 
 body {
     min-height: 100vh;
@@ -12,13 +20,20 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     overflow: hidden;
+    /* background Image and configure */
     background: url(./mathlive-1.png) center no-repeat;
     background-size: cover;
 }
 
+
+/* Bootstrap Modal Styles */
+
 .modal {
     z-index: 10;
 }
+
+
+/* Bootstrap Modal dialog Styles */
 
 .modal-dialog {
     margin: 4rem auto;
@@ -29,10 +44,16 @@ body {
     flex-wrap: wrap;
 }
 
-math-field {
-    font-size: 1.6rem;
-}
+
+/* Black modal background */
 
 .modal-backdrop {
     z-index: 5;
+}
+
+
+/* Editor Global Styles */
+
+math-field {
+    font-size: 1.6rem;
 }

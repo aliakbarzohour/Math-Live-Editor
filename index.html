@@ -13,12 +13,8 @@
 </head>
 
 <body>
-
-
-    <h2 class="text-light">
-        Welcome to Math Live Editor
-    </h2>
-
+    <!-- Title for this app -->
+    <h2 class="text-light">Welcome to Math Live Editor</h2>
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-light m-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
       Click Me !
@@ -29,17 +25,24 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
+                    <!-- Top Header modal title -->
                     <h5 class="modal-title" id="staticBackdropLabel">
                         Welcome to Math Live Editor 👋🏼
                     </h5>
+                    <!-- Button For Close -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                    <!-- ================================================== -->
+                    <!-- Editor -->
                     <math-field virtual-keyboard-mode="manual">
                         <!-- defult math -->
                         x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
                     </math-field>
+                    <!-- ================================================== -->
                 </div>
+
+                <!-- Close btn -->
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">
               Close
